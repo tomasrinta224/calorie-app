@@ -1,0 +1,15 @@
+{
+	"extends": "@tsconfig/node16/tsconfig.json",
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"baseUrl": "src",
+		"outDir": "lib",
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"typeRoots": [
+			"src/@types",
+			"./node_modules/@types"
+		]
+	}	
+}
